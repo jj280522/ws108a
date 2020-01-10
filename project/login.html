@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>歡迎登入</title>
+		<link rel="stylesheet" href="03.css" type="text/css" />
+	</head>
+
+	<body background="C:\Users\李奕緯\Desktop\圖\Kurumi.jpg">
+		<div id="myDiv" >
+			<nav id="myNav">
+				<div id="login">   <p><a href="03.html">登入</a></p></div>
+				<div id="register"><p><a href="06.html">註冊</a></p></div>
+			</nav>
+			<form id="myForm">
+				<div id="div1"></div>
+				<div id="usernameDiv">
+					<span class="s">帳號</span>
+					<input type="text" id="username" placeholder="帳號" />
+					<span class="spanStyle" id="usernameSpan">*</span>
+				</div>
+				
+				<div id="passwordDiv">
+					<span class="s">密碼</span>
+					<input type="password" id="password" placeholder="密碼" />
+					<span class="spanStyle" id="passwordSpan">*</span>
+				</div>
+				
+				<div id="vercodeDiv">
+					<span class="s">驗證碼</span>
+					<input type="text" id="vercode" placeholder="驗證碼" />
+					<span class="spanStyle" id="vercodeSpan">*</span>
+				</div>
+				
+				<div id="submitDiv">
+					<input id="user" type="button" value="用戶登入" />
+					<input id="visitor" type="button" value="遊客登入" />
+				</div>	
+			</form>
+		</div>
+		<script type="text/javascript" src="03.js"></script>
+	</body>
+
+</html>
